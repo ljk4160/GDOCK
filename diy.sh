@@ -1,0 +1,1 @@
+sed -i 's/Openwrt/G-DOCK/g' package/base-files/files/bin/config_generate
