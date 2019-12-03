@@ -1,8 +1,3 @@
-#=================================================
-#   Description: Build G-DOCK FROM LEAN'S LEDE
-#   Author: JK
-#=================================================
-
 name: Build G-DOCK
 
 on: 
@@ -14,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-14.04
 
     steps:
     - name: Checkout
