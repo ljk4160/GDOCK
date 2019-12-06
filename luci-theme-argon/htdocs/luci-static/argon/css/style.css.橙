@@ -204,7 +204,7 @@ html, body {
 .cbi-button-down,
 .main > .loading{
 
-    background: linear-gradient(87deg,#90EE90 0,#90EE90 100%)!important;
+    background: linear-gradient(87deg,#FF7F50 0,#FF7F50 100%)!important;
 }
 .sk-folding-cube {
     margin: 20px auto;
@@ -483,7 +483,7 @@ fieldset > fieldset {
 #conns > div > div,
 #memtotal > div > div {
     height: 100% !important;
-    background-color: #90EE90 !important;
+    background-color: #FF7F50 !important;
 }
 
 /* fix multiple table */
@@ -791,9 +791,9 @@ input[type="checkbox"]{
 }
 
 input[type="checkbox"]:checked{
-	border:1px solid  #90EE90;
+	border:1px solid  #FF7F50;
 	background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 8 8\'%3e%3cpath fill=\'%23fff\' d=\'M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z\'/%3e%3c/svg%3e') !important;
-    background-color: #90EE90;
+    background-color: #FF7F50;
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -817,9 +817,9 @@ ul li .cbi-input-checkbox{
 }
 
 .cbi-input-radio:checked{
-	border:1px solid  #90EE90;
+	border:1px solid  #FF7F50;
 	background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'-4 -4 8 8\'%3e%3ccircle r=\'3\' fill=\'%23fff\'/%3e%3c/svg%3e') !important;
-    background-color: #90EE90;
+    background-color: #FF7F50;
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1289,7 +1289,7 @@ input {
 
 select:not([multiple="multiple"]):focus,
 input:focus {
-    border-color:#90EE90;outline:0;background-color:#fff;box-shadow:0 3px 9px rgba(50,50,9,0),3px 4px 8px rgba(94,114,228,.1);
+    border-color:#FF7F50;outline:0;background-color:#fff;box-shadow:0 3px 9px rgba(50,50,9,0),3px 4px 8px rgba(94,114,228,.1);
 }
 
 select[multiple="multiple"] {
@@ -1314,7 +1314,7 @@ hr {
 }
 
 .bg-primary {
-    background-color: #90EE90!important;
+    background-color: #FF7F50!important;
 }
 
 header, .main {
@@ -1362,7 +1362,7 @@ footer > a {
     display: block;
     text-align: center;
     margin-top: 2rem;
-    color: #90EE90;
+    color: #FF7F50;
     font-size: 2rem;
 }
 
@@ -1403,7 +1403,7 @@ footer > a {
     left: 50%;
     top: 50%;
     font-size: 1.2rem;
-    border-color: #90EE90;
+    border-color: #FF7F50;
     text-align: center;
 }
 [id^="cbi-apply-"] >  .panel-title {
@@ -1533,7 +1533,7 @@ div > .table > .tbody > .tr:nth-of-type(2n) {
 }
 
 .notice {
-    background-color: #90EE90 !important;
+    background-color: #FF7F50 !important;
     color: #fff !important;
 }
 
@@ -1573,7 +1573,7 @@ div > .table > .tbody > .tr:nth-of-type(2n) {
 }
 .main > .main-left > .sidenav-header > .brand {
     font-size: 1.8rem;
-    color: #90EE90;
+    color: #FF7F50;
     font-family: "TypoGraphica";
     text-decoration: none;
     padding-left: 2rem;
@@ -1656,7 +1656,7 @@ div > .table > .tbody > .tr:nth-of-type(2n) {
 }
 .main > .main-left > .nav > .slide > .menu[data-title= Status ]:before{
     content: "\e906";
-    color: #90EE90!important;
+    color: #FF7F50!important;
 }
 .main > .main-left > .nav > .slide > .menu[data-title= System ]:before{
     content: "\e90a";
@@ -1735,7 +1735,7 @@ header > .fill > .container > .brand{
     background: #f6f9fc;
 }
 .main > .main-left > .nav > .slide > .menu.active:after{
-    color: #90EE90;
+    color: #FF7F50;
     transform: rotate(90deg);
 }
 
@@ -2027,8 +2027,8 @@ form.inline + form.inline,
 .cbi-button-edit {
 
     color: #fff !important;
-    background-color: #90EE90 !important;
-    border-color: #90EE90 !important;
+    background-color: #FF7F50 !important;
+    border-color: #FF7F50 !important;
 }
 
 
@@ -2175,13 +2175,13 @@ form.inline + form.inline,
 
 .cbi-dropdown[open] {
     position: relative;
-	border-color:#90EE90;
+	border-color:#FF7F50;
 }
 
 .cbi-dropdown[open] > ul.dropdown {
     display: block;
     background: #fff;
-    border-color: #90EE90;
+    border-color: #FF7F50;
     position: absolute;
     z-index: 1000;
     max-width: none;
@@ -2289,18 +2289,18 @@ select[multiple="multiple"] {
 .tabs > li[class~="active"],
 .tabs > li:hover {
     cursor: pointer;
-    border-bottom: 0.18751rem solid #90EE90;
-    color: #90EE90;
+    border-bottom: 0.18751rem solid #FF7F50;
+    color: #FF7F50;
     margin-bottom: 0;
 
 }
 
 .tabs > li[class~="active"] > a {
-    color: #90EE90;
+    color: #FF7F50;
 }
 
 .tabs > li:hover {
-    border-bottom: 0.18751rem solid #90EE90;
+    border-bottom: 0.18751rem solid #FF7F50;
 }
 
 .cbi-tabmenu {
@@ -2665,7 +2665,7 @@ td > .ifacebadge,
 }
 
 .ifacebox-head.active {
-    background: #90EE90;
+    background: #FF7F50;
     color: #fff;
 }
 
@@ -2823,7 +2823,7 @@ header > .container > .pull-right > * {
 }
 .node-main-login > .main > .main-right > header > .fill > .container > .brand{
     font-size:2rem;
-    color:#90EE90;
+    color:#FF7F50;
     display:none;
 
 }
