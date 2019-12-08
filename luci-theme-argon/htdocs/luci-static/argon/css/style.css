@@ -204,7 +204,7 @@ html, body {
 .cbi-button-down,
 .main > .loading{
 
-    background: linear-gradient(87deg,#90EE90 0,#90EE90 100%)!important;
+    background: linear-gradient(87deg,#EE82EE 0,#EE82EE 100%)!important;
 }
 .sk-folding-cube {
     margin: 20px auto;
@@ -483,7 +483,7 @@ fieldset > fieldset {
 #conns > div > div,
 #memtotal > div > div {
     height: 100% !important;
-    background-color: #90EE90 !important;
+    background-color: #EE82EE !important;
 }
 
 /* fix multiple table */
@@ -791,9 +791,9 @@ input[type="checkbox"]{
 }
 
 input[type="checkbox"]:checked{
-	border:1px solid  #90EE90;
+	border:1px solid  #EE82EE;
 	background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 8 8\'%3e%3cpath fill=\'%23fff\' d=\'M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z\'/%3e%3c/svg%3e') !important;
-    background-color: #90EE90;
+    background-color: #EE82EE;
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -817,9 +817,9 @@ ul li .cbi-input-checkbox{
 }
 
 .cbi-input-radio:checked{
-	border:1px solid  #90EE90;
+	border:1px solid  #EE82EE;
 	background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'-4 -4 8 8\'%3e%3ccircle r=\'3\' fill=\'%23fff\'/%3e%3c/svg%3e') !important;
-    background-color: #90EE90;
+    background-color: #EE82EE;
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1289,7 +1289,7 @@ input {
 
 select:not([multiple="multiple"]):focus,
 input:focus {
-    border-color:#90EE90;outline:0;background-color:#fff;box-shadow:0 3px 9px rgba(50,50,9,0),3px 4px 8px rgba(94,114,228,.1);
+    border-color:#EE82EE;outline:0;background-color:#fff;box-shadow:0 3px 9px rgba(50,50,9,0),3px 4px 8px rgba(94,114,228,.1);
 }
 
 select[multiple="multiple"] {
@@ -1314,7 +1314,7 @@ hr {
 }
 
 .bg-primary {
-    background-color: #90EE90!important;
+    background-color: #EE82EE!important;
 }
 
 header, .main {
@@ -1362,7 +1362,7 @@ footer > a {
     display: block;
     text-align: center;
     margin-top: 2rem;
-    color: #90EE90;
+    color: #EE82EE;
     font-size: 2rem;
 }
 
@@ -1403,7 +1403,7 @@ footer > a {
     left: 50%;
     top: 50%;
     font-size: 1.2rem;
-    border-color: #90EE90;
+    border-color: #EE82EE;
     text-align: center;
 }
 [id^="cbi-apply-"] >  .panel-title {
@@ -1502,12 +1502,14 @@ table > tbody > tr > td, table > tbody > tr > th, table > tfoot > tr > td, table
 
 .cbi-section-table-row > .cbi-value-field .cbi-input-select,
 .cbi-section-table-row > .cbi-value-field .cbi-input-text,
+.cbi-section-table-row > .cbi-value-field .cbi-input-user,
 .cbi-section-table-row > .cbi-value-field .cbi-input-password,
 .cbi-section-table-row > .cbi-value-field .cbi-dropdown {
     width: 100%;
 }
 
 .cbi-section-table-row > .cbi-value-field [data-dynlist] > input,
+.cbi-section-table-row > .cbi-value-field input.cbi-input-user,
 .cbi-section-table-row > .cbi-value-field input.cbi-input-password {
     width: calc(100% - 1.5rem);
 }
@@ -1533,7 +1535,7 @@ div > .table > .tbody > .tr:nth-of-type(2n) {
 }
 
 .notice {
-    background-color: #90EE90 !important;
+    background-color: #EE82EE !important;
     color: #fff !important;
 }
 
@@ -1573,7 +1575,7 @@ div > .table > .tbody > .tr:nth-of-type(2n) {
 }
 .main > .main-left > .sidenav-header > .brand {
     font-size: 1.8rem;
-    color: #90EE90;
+    color: #EE82EE;
     font-family: "TypoGraphica";
     text-decoration: none;
     padding-left: 2rem;
@@ -1656,7 +1658,7 @@ div > .table > .tbody > .tr:nth-of-type(2n) {
 }
 .main > .main-left > .nav > .slide > .menu[data-title= Status ]:before{
     content: "\e906";
-    color: #90EE90!important;
+    color: #EE82EE!important;
 }
 .main > .main-left > .nav > .slide > .menu[data-title= System ]:before{
     content: "\e90a";
@@ -1735,7 +1737,7 @@ header > .fill > .container > .brand{
     background: #f6f9fc;
 }
 .main > .main-left > .nav > .slide > .menu.active:after{
-    color: #90EE90;
+    color: #EE82EE;
     transform: rotate(90deg);
 }
 
@@ -2027,8 +2029,8 @@ form.inline + form.inline,
 .cbi-button-edit {
 
     color: #fff !important;
-    background-color: #90EE90 !important;
-    border-color: #90EE90 !important;
+    background-color: #EE82EE !important;
+    border-color: #EE82EE !important;
 }
 
 
@@ -2175,13 +2177,13 @@ form.inline + form.inline,
 
 .cbi-dropdown[open] {
     position: relative;
-	border-color:#90EE90;
+	border-color:#EE82EE;
 }
 
 .cbi-dropdown[open] > ul.dropdown {
     display: block;
     background: #fff;
-    border-color: #90EE90;
+    border-color: #EE82EE;
     position: absolute;
     z-index: 1000;
     max-width: none;
@@ -2289,18 +2291,18 @@ select[multiple="multiple"] {
 .tabs > li[class~="active"],
 .tabs > li:hover {
     cursor: pointer;
-    border-bottom: 0.18751rem solid #90EE90;
-    color: #90EE90;
+    border-bottom: 0.18751rem solid #EE82EE;
+    color: #EE82EE;
     margin-bottom: 0;
 
 }
 
 .tabs > li[class~="active"] > a {
-    color: #90EE90;
+    color: #EE82EE;
 }
 
 .tabs > li:hover {
-    border-bottom: 0.18751rem solid #90EE90;
+    border-bottom: 0.18751rem solid #EE82EE;
 }
 
 .cbi-tabmenu {
@@ -2665,7 +2667,7 @@ td > .ifacebadge,
 }
 
 .ifacebox-head.active {
-    background: #90EE90;
+    background: #EE82EE;
     color: #fff;
 }
 
@@ -2823,7 +2825,7 @@ header > .container > .pull-right > * {
 }
 .node-main-login > .main > .main-right > header > .fill > .container > .brand{
     font-size:2rem;
-    color:#90EE90;
+    color:#EE82EE;
     display:none;
 
 }
@@ -2976,12 +2978,15 @@ header > .container > .pull-right > * {
 .node-main-login > .main .cbi-value > * {
     display: inline-block !important;
 }
-.node-main-login > .main .cbi-value:first-child , .node-main-login > .main .cbi-button-reset{
+.node-main-login > .main .cbi-button-reset{
     display:none !important;
 }
 
 
 .node-main-login > .main .cbi-value.cbi-value-last .cbi-value-title{
+    display: none !important;
+}
+.node-main-login > .main .cbi-value.cbi-value .cbi-value-title{
     display: none !important;
 }
 .node-main-login > .main .cbi-value.cbi-value-last .cbi-input-text{
@@ -2992,7 +2997,25 @@ header > .container > .pull-right > * {
     padding-left:3em;
     margin: 0;
 }
+.node-main-login > .main .cbi-value.cbi-value .cbi-input-text{
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+    transition: box-shadow .15s ease;
+    border-radius: .375rem;
+    box-sizing:border-box;
+    padding-left:3em;
+    margin: 0;
+}
+
+
 .node-main-login > .main .cbi-value.cbi-value-last .cbi-input-password{
+    box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+    transition: box-shadow .15s ease;
+    border-radius: .375rem;
+    box-sizing:border-box;
+    padding-left:3em;
+    margin: 0;
+}
+.node-main-login > .main .cbi-value.cbi-value .cbi-input-user{
     box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
     transition: box-shadow .15s ease;
     border-radius: .375rem;
@@ -3005,6 +3028,11 @@ header > .container > .pull-right > * {
     position:relative;
 	width: 20rem;
 }
+.node-main-login > .main .cbi-value.cbi-value .cbi-value-field{
+    position:relative;
+	width: 20rem;
+}
+
 .node-main-login > .main .cbi-value.cbi-value-last .cbi-value-field:before{
     font-family: 'icomoon' !important;
     speak: none;
@@ -3016,6 +3044,24 @@ header > .container > .pull-right > * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "\e901";
+    color: #adb5bd;
+    font-size: 1.5rem;
+    position: absolute;
+    z-index: 100;
+    left: 10px;
+    top: 10px;
+}
+.node-main-login > .main .cbi-value .cbi-value-field:before{
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e900";
     color: #adb5bd;
     font-size: 1.5rem;
     position: absolute;
@@ -3474,6 +3520,9 @@ header > .container > .pull-right > * {
     }
 
     .node-system-packages > .main .cbi-value.cbi-value-last > div {
+        width: 100% !important;
+    }
+    .node-system-packages > .main .cbi-value.cbi-value > div {
         width: 100% !important;
     }
     .node-system-packages  .cbi-section-node .cbi-value {
