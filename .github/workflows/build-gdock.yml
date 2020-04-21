@@ -51,7 +51,10 @@ jobs:
     - name: Clone source code
       run: |
         git clone https://github.com/coolsnowwolf/lede lede
-
+        echo '开启魔法上网'
+        cd lede
+        sed -i 's/#src-git/src-git/g' feeds.conf.default
+        
     - name: Update feeds
       run: cd lede && ./scripts/feeds update -a
 
@@ -70,8 +73,6 @@ jobs:
       run: |
         echo -e "$(nproc) thread build."
         cd lede && make download -j$(nproc)
-        find dl -size -1024c -exec ls -l {} \;
-        find dl -size -1024c -exec rm -f {} \;
 
     - name: Build
       run: |
