@@ -30,5 +30,5 @@ git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverch
 echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
 
-echo '首页增加CPU频率动态显示'
-cp -f ../diy/mod-index.htm ./package/lean/autocore/files/index.htm
+
+
